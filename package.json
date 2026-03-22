@@ -3,7 +3,7 @@
   "displayName": "zen-theme",
   "description": "",
   "publisher": "pzielinski",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository": {
     "type": "git",
     "url": "https://github.com/piotrzielinski1994/vscode-zen-theme.git"
@@ -27,6 +27,10 @@
         "path": "./themes/zen-theme-light-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "publish": "vsce publish",
+    "login": "vsce login"
   },
   "devDependencies": {
     "@vscode/vsce": "^3.7.1"
