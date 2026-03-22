@@ -27,5 +27,8 @@
         "path": "./themes/zen-theme-light-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.1"
   }
 }
